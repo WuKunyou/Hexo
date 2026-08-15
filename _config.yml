@@ -96,12 +96,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ayer
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:WuKunyou/Hexo.git
+  branch: gh-pages
+  
 # hexo-generator-searchdb
 search:
   path: search.xml
